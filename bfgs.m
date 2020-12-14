@@ -63,6 +63,7 @@ fprintf('Iterations: %d\n', i-1)
 fprintf('Gradient %d\n',norm(func_deriv))
 fprintf('Local Minimum at \n')
 fprintf('%c \n', xk)
+disp('Hessian')
 disp(H)
 
 end

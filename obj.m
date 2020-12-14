@@ -37,12 +37,12 @@ end
         
         
 %% Line Search Test Cases
-%       val = xc(1)^2;                                  % 1D Test
+      val = xc(1)^2;                                  % 1D Test
 %       val = xc(1)*sin(xc(1)) + xc(1)*cos(2*xc(1));    % 1D Test
 %       val = sin(xc(1)) + sin(10/3*xc(1));             % 1D Test
 
 %% Final Project Test Cases
-      val = -cos(xc(1))*cos(xc(2))*exp(-(xc(1)-pi)^2-(xc(2)-pi)^2); %Easom Function 2D
+%       val = -cos(xc(1))*cos(xc(2))*exp(-(xc(1)-pi)^2-(xc(2)-pi)^2); %Easom Function 2D
 %       val = hartmann3(xc);                                          %Hartman 3D
 %       val = camel3hump(xc);                                         %3 Hump Camel Function 2D
 
